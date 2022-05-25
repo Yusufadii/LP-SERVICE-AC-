@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.outer-container {
+    position: relative;
+}
+
+.frame-1{
+    background-image: url(img/bg-putih-service-ac.webp);
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.logo-dokter-mobil {
+    background-color: white;
+    width: 20%;
+    min-width: 250px;
+    padding: 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 23px 23px;
+}
+
+.header-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 84px;
+    line-height: 130%;
+    background: linear-gradient(180deg, #212121 0%, #5A5A5A 20.83%, #212121 38.02%, #212121 56.25%, #5A5A5A 76.04%, #212121 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 5px 6px 15px rgba(0, 0, 0, 0.35);
+}
+
+.sub-header {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 52px;
+    background: linear-gradient(180deg, #EB1C23 0%, #C62127 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.sa-1 {
+    margin-left: -6%;
+    max-width: 800px;
+    width: 100%;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+}
+
+.down-arrow-2 {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+}
+
+/* frame 2 */
+
+.frame-2{
+    background-image: url(img/bg-putih-service-ac.webp);
+    background-size: cover;
+    padding-bottom: 200px;
+} 
+
+.header-titleh1{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+    /* or 62px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+.sa-2{
+    max-width: 800px;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.titlef2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    /* or 39px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+/* frame 3 */
+
+.frame-3{
+    background-image: url(img/bg-kenyamanan-service-ac.webp);
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.header-titlef3{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 130%;
+    /* or 66px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    text-shadow: 4px 11px 7px rgba(0, 0, 0, 0.45);
+}
+
+.text-effect{
+    position: absolute;
+    width: 1128px;
+    height: 166px;
+    left: 161px;
+    top: 165px;
+}
+
+.sub-titlef3{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 59px;
+    line-height: 130%;
+    /* or 77px */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    text-shadow: 4px 11px 7px rgba(0, 0, 0, 0.45);
+}
+
+/* frame 4 */
+
+.frame-4{
+    background-image: url(img/bg-putih-service-ac.webp);
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+.sa-4{
+    max-width: 800px;
+    width: 100%;
+}
+
+
+.header-titlef4{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 130%;
+    /* identical to box height, or 81px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #EB1C23;
+
+    text-shadow: 2px 8px 9px rgba(0, 0, 0, 0.15);
+    }
+
+    .titlef4{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 130%;
+        /* or 39px */
+
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+
+    /* frame 5 */
+
+    .frame-5{
+      background-image: url(img/bg-putih-service-ac2.png);
+      background-size: cover;
+      padding-bottom: 200px;
+      padding-top: 100px;
+    }
+
+    .header-titlef5{
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 800;
+        font-size: 62px;
+        line-height: 130%;
+        /* identical to box height, or 81px */
+
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+
+        color: #EB1C23;
+
+        text-shadow: 2px 8px 9px rgba(0, 0, 0, 0.15);
+    }
+
+    .header-title2f5{
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 800;
+        font-size: 69px;
+        line-height: 130%;
+        /* identical to box height, or 90px */
+
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 2px #EB1C23;
+    }
+
+    .sub-headerf5{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 130%;
+        /* or 38px */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+
+    .checklist{
+        width: 100%;
+        max-width: 80px;
+    }
+
+    .titlef5{
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 800;
+        font-size: 37px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: #000000;
+    }
